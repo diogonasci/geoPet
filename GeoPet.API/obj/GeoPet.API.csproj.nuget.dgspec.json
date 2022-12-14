@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/diogonasci/Macoratti/geoPet/GeoPet.API/GeoPet.API.csproj": {}
+  },
+  "projects": {
+    "/home/diogonasci/Macoratti/geoPet/GeoPet.API/GeoPet.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/diogonasci/Macoratti/geoPet/GeoPet.API/GeoPet.API.csproj",
+        "projectName": "GeoPet.API",
+        "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.API/GeoPet.API.csproj",
+        "packagesPath": "/home/diogonasci/.nuget/packages/",
+        "outputPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/diogonasci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/GeoPet.CrossCutting.csproj": {
+                "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/GeoPet.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/diogonasci/Macoratti/geoPet/GeoPet.Application/GeoPet.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/diogonasci/Macoratti/geoPet/GeoPet.Application/GeoPet.Application.csproj",
+        "projectName": "GeoPet.Application",
+        "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Application/GeoPet.Application.csproj",
+        "packagesPath": "/home/diogonasci/.nuget/packages/",
+        "outputPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/diogonasci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj": {
+                "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/GeoPet.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/GeoPet.CrossCutting.csproj",
+        "projectName": "GeoPet.CrossCutting",
+        "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/GeoPet.CrossCutting.csproj",
+        "packagesPath": "/home/diogonasci/.nuget/packages/",
+        "outputPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/diogonasci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/diogonasci/Macoratti/geoPet/GeoPet.Application/GeoPet.Application.csproj": {
+                "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Application/GeoPet.Application.csproj"
+              },
+              "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj": {
+                "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj"
+              },
+              "/home/diogonasci/Macoratti/geoPet/GeoPet.Infrastructure/GeoPet.Infrastructure.csproj": {
+                "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Infrastructure/GeoPet.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj",
+        "projectName": "GeoPet.Domain",
+        "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj",
+        "packagesPath": "/home/diogonasci/.nuget/packages/",
+        "outputPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/diogonasci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/diogonasci/Macoratti/geoPet/GeoPet.Infrastructure/GeoPet.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/diogonasci/Macoratti/geoPet/GeoPet.Infrastructure/GeoPet.Infrastructure.csproj",
+        "projectName": "GeoPet.Infrastructure",
+        "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Infrastructure/GeoPet.Infrastructure.csproj",
+        "packagesPath": "/home/diogonasci/.nuget/packages/",
+        "outputPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/diogonasci/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj": {
+                "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/bin/Debug/net6.0/GeoPet.Application.deps.json
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/bin/Debug/net6.0/GeoPet.Application.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/bin/Debug/net6.0/ref/GeoPet.Application.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/bin/Debug/net6.0/GeoPet.Application.pdb
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/bin/Debug/net6.0/GeoPet.Domain.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/bin/Debug/net6.0/GeoPet.Domain.pdb
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.csproj.AssemblyReference.cache
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.AssemblyInfoInputs.cache
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.AssemblyInfo.cs
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.csproj.CoreCompileInputs.cache
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.csproj.CopyComplete
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/ref/GeoPet.Application.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.Application/obj/Debug/net6.0/GeoPet.Application.pdb
