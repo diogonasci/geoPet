@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GeoPet.Domain.Entities;
 
-    public class PetOwner : Entity
+    public sealed class PetOwner : Entity
     {
         public PetOwner(string name, string email, string password)
         {

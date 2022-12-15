@@ -1,7 +1,7 @@
 using GeoPet.Domain.Validation;
 
 namespace GeoPet.Domain.Entities;
-    public class Pet : Entity
+    public sealed class Pet : Entity
     {
         public Pet(string name, string breed, string gender, double weight, int age)
         {
