@@ -1,5 +1,4 @@
 using GeoPet.Domain.Validation;
-using System;
 
 namespace GeoPet.Domain.Entities;
     public class Pet : Entity
@@ -15,6 +14,11 @@ namespace GeoPet.Domain.Entities;
         public int Age { get; private set; }
         public string[] Position { get; private set; } = null!; // latitude, longitude and address
 
+
+        // Aqui foram feitas validações para os campos, mas acredito que deveriam ser feitas na camada application. 
+        // Acredito que as validações feitas aqui deveriam ser as relacionadas ao negócio.
+        // Fiz apenas para ilustrar (Seria bom um exemplo de validação de negócio).
+        
         private void ValidateDomain(string name, string breed, string gender, double weight, int age)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
@@ -44,4 +48,9 @@ namespace GeoPet.Domain.Entities;
             Age = age;
 
         }
+
+        // Essas duas propriedades me deixaram em dúvida, mas coloquei assim pois existia no projeto do macoratti. (Entender melhor com o Edson)
+        // Será que é algo relacionado ao banco de dados?
+        public int PetOwnerId { get; private set; }
+        public PetOwner PetOwner { get; private set; }
     }
