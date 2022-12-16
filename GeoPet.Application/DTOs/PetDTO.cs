@@ -2,6 +2,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GeoPet.Application.DTOs;
 
+// Entender melhor o momento onde as validações são feitas
+
 public class PetDTO
 {
     public int Id { get; set; }
