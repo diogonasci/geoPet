@@ -1,9 +1,6 @@
 using GeoPet.Application.DTOs;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace GeoPet.Application.Interfaces
-{
+namespace GeoPet.Application.Interfaces;
     public interface IPetOwnerService
     {
         Task<IEnumerable<PetOwnerDTO>> GetPetOwners();
@@ -12,4 +9,3 @@ namespace GeoPet.Application.Interfaces
         Task Update(PetOwnerDTO petOwnerDto);
         Task Remove(int? id);
     }
-}

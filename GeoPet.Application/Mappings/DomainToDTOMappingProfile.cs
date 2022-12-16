@@ -2,8 +2,8 @@ using AutoMapper;
 using GeoPet.Application.DTOs;
 using GeoPet.Domain.Entities;
 
-namespace GeoPet.Application.Mappings
-{
+namespace GeoPet.Application.Mappings;
+
     public class DomainToDTOMappingProfile : Profile
     {
         public DomainToDTOMappingProfile()
@@ -12,4 +12,3 @@ namespace GeoPet.Application.Mappings
             CreateMap<Pet, PetDTO>().ReverseMap();
         }
     }
-}

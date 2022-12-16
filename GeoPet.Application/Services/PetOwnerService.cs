@@ -4,8 +4,8 @@ using GeoPet.Application.Interfaces;
 using GeoPet.Domain.Entities;
 using GeoPet.Domain.Interfaces;
 
-namespace GeoPet.Application.Services
-{
+namespace GeoPet.Application.Services;
+
     public class PetOwnerService : IPetOwnerService
     {
         private IPetOwnerRepository _petOwnerRepository;
@@ -47,4 +47,3 @@ namespace GeoPet.Application.Services
             await _petOwnerRepository.RemoveAsync(petOwnerEntity);
         }
     }
-}
