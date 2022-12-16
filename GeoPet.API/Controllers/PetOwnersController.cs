@@ -5,8 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace GeoPet.API.Controllers
-{
+namespace GeoPet.API.Controllers;
     [Route("api/v1/[Controller]")]
     [ApiController]
     public class PetOwnersController : ControllerBase
@@ -78,4 +77,3 @@ namespace GeoPet.API.Controllers
             return Ok(petOwnerDto);
         }
     }
-}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7O35sP5+L+7DJ9kp2Fg7XEtmVyHb6HtT7Rx4M8j+FdsUDdovoKLtd9hBXJlku0nHl2GOaDB59Cr6Q2QRBqd0Ag==",
+  "dgSpecHash": "TXdSl1KR12mNsVTGqeZAnL8E8sqb1yq6mz7p6cnKyzpVQfOv8g2JemRCBVfnpiXAzu+BfJFIyFitb6R3COvznA==",
   "success": false,
   "projectFilePath": "/home/diogonasci/Macoratti/geoPet/GeoPet.API/GeoPet.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "/home/diogonasci/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/home/diogonasci/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.2/microsoft.aspnetcore.jsonpatch.6.0.2.nupkg.sha512",
+    "/home/diogonasci/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.2/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.2.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
@@ -42,6 +44,8 @@
     "/home/diogonasci/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
+    "/home/diogonasci/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/diogonasci/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/home/diogonasci/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
