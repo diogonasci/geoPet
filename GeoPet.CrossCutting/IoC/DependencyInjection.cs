@@ -16,13 +16,13 @@ namespace GeoPet.CrossCutting.IoC;
         public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             IConfiguration configuration)
         {
-            //services.AddDbContext<ApplicationDbContext>(options =>
+            // services.AddDbContext<ApplicationDbContext>(options =>
             // options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"
-            //), b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+            // ), b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-               options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
-                     new MySqlServerVersion(new Version(8, 0, 11))));
+            // services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
+            //          new MySqlServerVersion(new Version(8, 0, 11))));
 
             services.AddScoped<IPetOwnerRepository, PetOwnerRepository>();
             services.AddScoped<IPetRepository, PetRepository>();

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GeoPet.Infrastructure.EntitiesConfiguration;
 
-public class CategoriaConfiguration : IEntityTypeConfiguration<PetOwner>
+public class PetOwnerConfiguration : IEntityTypeConfiguration<PetOwner>
 {
     public void Configure(EntityTypeBuilder<PetOwner> builder)
     {
