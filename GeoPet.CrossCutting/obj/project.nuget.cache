@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ZrzDYnfHQaJnjbLYqJNzFsvnOOec3Wpn88RP+IAldT3V9BeMSCMyKBjY60mUb88ym6SBqhVKWxsR4RsJlFcUyg==",
-  "success": false,
+  "dgSpecHash": "9awZURCYiuoRfZzO3Ev3gWOQc2Oq6XYoIBZbDvQKqTJF63Y0Fnw4uH2ZyLh0ZVvFs1sIT52Ild0uDgPJ0vIuLw==",
+  "success": true,
   "projectFilePath": "/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/GeoPet.CrossCutting.csproj",
   "expectedPackageFiles": [
     "/home/diogonasci/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
@@ -73,9 +73,10 @@
   ],
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Microsoft.EntityFrameworkCore.Relational. Install/reference Microsoft.EntityFrameworkCore.Relational 7.0.1 directly to project GeoPet.CrossCutting to resolve this issue. \n GeoPet.CrossCutting -> GeoPet.Infrastructure -> Microsoft.EntityFrameworkCore.SqlServer 7.0.1 -> Microsoft.EntityFrameworkCore.Relational (>= 7.0.1) \n GeoPet.CrossCutting -> GeoPet.Infrastructure -> Pomelo.EntityFrameworkCore.MySql 6.0.2 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.7 && < 7.0.0).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Pomelo.EntityFrameworkCore.MySql 6.0.2 requires Microsoft.EntityFrameworkCore.Relational (>= 6.0.7 && < 7.0.0) but version Microsoft.EntityFrameworkCore.Relational 7.0.1 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "net6.0"

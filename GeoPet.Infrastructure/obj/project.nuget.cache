@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "0Gzb2BvacToVhmPYzWupuVxXtHIgmG/U7q31MzZFeMiKPnTXe2jMoMJNuYP+iTnUHju9fSRP8SHAq4+0jIf6xg==",
-  "success": false,
+  "dgSpecHash": "OXjCdQLgK1esqmZIQCdEu7k5dhZDH+dKY+lyHAARBHCCPk/L3PW6Vo8hpgHfpcqbHmDf4euNPPdbFIAOQlnEQg==",
+  "success": true,
   "projectFilePath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Infrastructure/GeoPet.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/diogonasci/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
@@ -77,9 +77,10 @@
   ],
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Microsoft.EntityFrameworkCore.Relational. Install/reference Microsoft.EntityFrameworkCore.Relational 7.0.1 directly to project GeoPet.Infrastructure to resolve this issue. \n GeoPet.Infrastructure -> Microsoft.EntityFrameworkCore.SqlServer 7.0.1 -> Microsoft.EntityFrameworkCore.Relational (>= 7.0.1) \n GeoPet.Infrastructure -> Pomelo.EntityFrameworkCore.MySql 6.0.2 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.7 && < 7.0.0).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Pomelo.EntityFrameworkCore.MySql 6.0.2 requires Microsoft.EntityFrameworkCore.Relational (>= 6.0.7 && < 7.0.0) but version Microsoft.EntityFrameworkCore.Relational 7.0.1 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "net6.0"

@@ -1,0 +1,5 @@
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.csproj.AssemblyReference.cache
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.AssemblyInfoInputs.cache
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.AssemblyInfo.cs
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.csproj.CoreCompileInputs.cache

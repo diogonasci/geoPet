@@ -1,5 +1,6 @@
 using GeoPet.Domain.Validation;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace GeoPet.Domain.Entities;
 
@@ -26,7 +27,7 @@ namespace GeoPet.Domain.Entities;
         public string? PhoneNumber { get; private set; }
 
         public string CEP { get; private set; } = null!; // Entender melhor quando utilizar private set
-        public string[] Pets { get; set; } = null!; // Entender o que significa null! / Aqui eu deveria utilizar uma collection?
+        public Collection<Pet> Pets { get; set; } = null!; // Entender o que significa null! / Aqui eu deveria utilizar uma collection?
 
         
         private void ValidateDomain(string name, string email, string password)

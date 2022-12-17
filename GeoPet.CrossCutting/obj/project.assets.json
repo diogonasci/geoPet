@@ -930,6 +930,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "GeoPet.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
         },
@@ -3284,9 +3285,10 @@
   },
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Microsoft.EntityFrameworkCore.Relational. Install/reference Microsoft.EntityFrameworkCore.Relational 7.0.1 directly to project GeoPet.CrossCutting to resolve this issue. \n GeoPet.CrossCutting -> GeoPet.Infrastructure -> Microsoft.EntityFrameworkCore.SqlServer 7.0.1 -> Microsoft.EntityFrameworkCore.Relational (>= 7.0.1) \n GeoPet.CrossCutting -> GeoPet.Infrastructure -> Pomelo.EntityFrameworkCore.MySql 6.0.2 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.7 && < 7.0.0).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Pomelo.EntityFrameworkCore.MySql 6.0.2 requires Microsoft.EntityFrameworkCore.Relational (>= 6.0.7 && < 7.0.0) but version Microsoft.EntityFrameworkCore.Relational 7.0.1 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "net6.0"
