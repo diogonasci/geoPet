@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I0hjEWpIrEKFZP0SGDpuJSu4aU+uL9VwhbY0VxebEAM=",
+  "Source": "GeoPet.API",
+  "BasePath": "_content/GeoPet.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

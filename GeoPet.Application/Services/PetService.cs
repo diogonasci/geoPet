@@ -4,7 +4,7 @@ using GeoPet.Application.Interfaces;
 using GeoPet.Domain.Entities;
 using GeoPet.Domain.Interfaces;
 
-namespace Catalogo.Application.Services;
+namespace GeoPet.Application.Services;
 
 public class PetService : IPetService
 {

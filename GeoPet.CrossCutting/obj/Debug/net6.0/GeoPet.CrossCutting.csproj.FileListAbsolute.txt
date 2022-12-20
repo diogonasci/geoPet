@@ -3,3 +3,17 @@
 /home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.AssemblyInfoInputs.cache
 /home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.AssemblyInfo.cs
 /home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.csproj.CoreCompileInputs.cache
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.CrossCutting.deps.json
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.CrossCutting.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/ref/GeoPet.CrossCutting.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.CrossCutting.pdb
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.Application.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.Domain.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.Infrastructure.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.Application.pdb
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.Domain.pdb
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/bin/Debug/net6.0/GeoPet.Infrastructure.pdb
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.csproj.CopyComplete
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/ref/GeoPet.CrossCutting.dll
+/home/diogonasci/Macoratti/geoPet/GeoPet.CrossCutting/obj/Debug/net6.0/GeoPet.CrossCutting.pdb

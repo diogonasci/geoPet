@@ -24,9 +24,9 @@ namespace GeoPet.Domain.Entities;
         public string Password { get; private set; }
 
         public string? ProfilePicture { get; private set; }
-        public string? PhoneNumber { get; private set; }
+        public string? PhoneNumber { get; private set; } // Entender melhor quando utilizar private set
 
-        public string CEP { get; private set; } = null!; // Entender melhor quando utilizar private set
+        public string? CEP { get; private set; } = null!; 
 
         
         private void ValidateDomain(string name, string email, string password)

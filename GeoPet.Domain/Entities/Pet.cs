@@ -12,8 +12,7 @@ namespace GeoPet.Domain.Entities;
         public string Gender { get; private set; }
         public double Weight { get; private set; }
         public int Age { get; private set; }
-        public string[] Position { get; private set; } = null!; // latitude, longitude and address
-
+        public string Address { get; private set; } = null!;
 
         // Aqui foram feitas validações para os campos, mas acredito que deveriam ser feitas na camada application. 
         // Acredito que as validações feitas aqui deveriam ser as relacionadas ao negócio.

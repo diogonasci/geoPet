@@ -15,7 +15,7 @@ public class PetConfiguration : IEntityTypeConfiguration<Pet>
         builder.Property(p => p.Gender).HasMaxLength(200).IsRequired();
         builder.Property(p => p.Weight).HasPrecision(10, 2);
         builder.Property(p => p.Age).IsRequired();
-        builder.Property(p => p.Position).IsRequired();
+        builder.Property(p => p.Address).IsRequired();
 
 
 
