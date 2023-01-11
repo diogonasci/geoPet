@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{750BAFF3-D61C-4BE0-B870-485A5E40C233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0E99FD64-B914-4188-972A-E412C0C27A82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPet.API", "GeoPet.API\GeoPet.API.csproj", "{B61A5FD2-CC96-4BFC-B0E8-C9DFC440FD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPet.Application", "GeoPet.Application\GeoPet.Application.csproj", "{F0CE236B-FEB5-4DE7-B126-C0B58BF275E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPet.CrossCutting", "GeoPet.CrossCutting\GeoPet.CrossCutting.csproj", "{12CD221A-A5E3-4FDA-8565-F33DCD47874A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPet.Domain", "GeoPet.Domain\GeoPet.Domain.csproj", "{021A9076-E80C-4064-A452-C417154562A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoPet.Infrastructure", "GeoPet.Infrastructure\GeoPet.Infrastructure.csproj", "{79A15CC1-4015-4D4C-B24D-977491E14715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B61A5FD2-CC96-4BFC-B0E8-C9DFC440FD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61A5FD2-CC96-4BFC-B0E8-C9DFC440FD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61A5FD2-CC96-4BFC-B0E8-C9DFC440FD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61A5FD2-CC96-4BFC-B0E8-C9DFC440FD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CE236B-FEB5-4DE7-B126-C0B58BF275E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CE236B-FEB5-4DE7-B126-C0B58BF275E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CE236B-FEB5-4DE7-B126-C0B58BF275E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CE236B-FEB5-4DE7-B126-C0B58BF275E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CD221A-A5E3-4FDA-8565-F33DCD47874A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CD221A-A5E3-4FDA-8565-F33DCD47874A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CD221A-A5E3-4FDA-8565-F33DCD47874A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CD221A-A5E3-4FDA-8565-F33DCD47874A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021A9076-E80C-4064-A452-C417154562A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021A9076-E80C-4064-A452-C417154562A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021A9076-E80C-4064-A452-C417154562A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021A9076-E80C-4064-A452-C417154562A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A15CC1-4015-4D4C-B24D-977491E14715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A15CC1-4015-4D4C-B24D-977491E14715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A15CC1-4015-4D4C-B24D-977491E14715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A15CC1-4015-4D4C-B24D-977491E14715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B61A5FD2-CC96-4BFC-B0E8-C9DFC440FD75} = {750BAFF3-D61C-4BE0-B870-485A5E40C233}
+		{F0CE236B-FEB5-4DE7-B126-C0B58BF275E5} = {750BAFF3-D61C-4BE0-B870-485A5E40C233}
+		{12CD221A-A5E3-4FDA-8565-F33DCD47874A} = {750BAFF3-D61C-4BE0-B870-485A5E40C233}
+		{021A9076-E80C-4064-A452-C417154562A7} = {750BAFF3-D61C-4BE0-B870-485A5E40C233}
+		{79A15CC1-4015-4D4C-B24D-977491E14715} = {750BAFF3-D61C-4BE0-B870-485A5E40C233}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A97DAFF-8E74-4DE8-9480-53080E338474}
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LR2YVIjsgZHtVTsACiAuQzMNgKSelI06eaN/JSLCMIeIVv6iNP+Opgf4xIaCiOhEtNY/+LrZUXFpSxhNtqgfWA==",
+  "dgSpecHash": "GfQMkssUKD9keLIpSCkDr+rLi0RfC9hPHLkAjnKLD0941mxctdeu7bY1rNsgOFpxpFjoJ2nApdzHAdVeDkUkGA==",
   "success": true,
-  "projectFilePath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Application/GeoPet.Application.csproj",
+  "projectFilePath": "D:\\Projetos\\Macoratti\\GeoPet.Application\\GeoPet.Application.csproj",
   "expectedPackageFiles": [
-    "/home/diogonasci/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
-    "/home/diogonasci/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\diogo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\diogo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

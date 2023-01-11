@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/diogonasci/.nuget/packages/": {}
+    "C:\\Users\\diogo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj",
+      "projectUniqueName": "D:\\Projetos\\Macoratti\\GeoPet.Domain\\GeoPet.Domain.csproj",
       "projectName": "GeoPet.Domain",
-      "projectPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/GeoPet.Domain.csproj",
-      "packagesPath": "/home/diogonasci/.nuget/packages/",
-      "outputPath": "/home/diogonasci/Macoratti/geoPet/GeoPet.Domain/obj/",
+      "projectPath": "D:\\Projetos\\Macoratti\\GeoPet.Domain\\GeoPet.Domain.csproj",
+      "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\Macoratti\\GeoPet.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/diogonasci/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

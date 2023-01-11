@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GeoPet.API",
+    "\\GeoPet.Application",
+    "\\GeoPet.CrossCutting",
+    "\\GeoPet.CrossCutting\\IoC",
+    "\\GeoPet.Domain",
+    "\\GeoPet.Infrastructure"
+  ],
+  "SelectedNode": "\\GeoPet.Infrastructure\\GeoPet.Infrastructure.csproj",
+  "PreviewInSolutionExplorer": false
+}

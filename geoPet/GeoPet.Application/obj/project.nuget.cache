@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DPWJK07/t3BDKUWigcTXk9V7RZMpZnfAXRGa0csZMx3CQfa1PcyzpCW7M61GM6a4EWEkY0ceGQ7RT4ZQss04Nw==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\Macoratti\\GeoPet\\GeoPet.Application\\GeoPet.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diogo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\diogo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

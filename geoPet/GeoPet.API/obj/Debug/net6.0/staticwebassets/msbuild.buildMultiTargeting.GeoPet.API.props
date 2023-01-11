@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GeoPet.API.props" />
+</Project>
