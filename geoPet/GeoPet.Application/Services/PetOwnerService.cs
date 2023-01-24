@@ -29,10 +29,14 @@ namespace GeoPet.Application.Services;
             return _mapper.Map<PetOwnerDTO>(petOwnerEntity);
         }
 
-        public async Task Add(PetOwnerDTO petOwnerDto)
+        public async Task<PetOwnerDTO> Add(PetOwnerDTO petOwnerDto)
         {
             var petOwnerEntity = _mapper.Map<PetOwner>(petOwnerDto);
-            await _petOwnerRepository.CreateAsync(petOwnerEntity);
+
+            var entity = await _petOwnerRepository.CreateAsync(petOwnerEntity);
+
+            return _mapper.Map<PetOwnerDTO>(entity);
+
         }
 
         public async Task Update(PetOwnerDTO petOwnerDto)

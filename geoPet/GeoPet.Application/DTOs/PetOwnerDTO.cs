@@ -1,9 +1,11 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace GeoPet.Application.DTOs;
 
 public class PetOwnerDTO
 {
+    [JsonIgnore]
     public int Id { get; set; }
     
     [Required(ErrorMessage = "Name is required")]

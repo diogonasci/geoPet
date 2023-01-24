@@ -18,7 +18,7 @@ namespace GeoPet.Domain.Entities;
         public string? Gender { get; private set; }
         public double? Weight { get; private set; }
         public int? Age { get; private set; }
-        public string? Address { get; private set; } = null!;
+        public string? Address { get; private set; }
 
         // Aqui foram feitas validações para os campos, mas acredito que deveriam ser feitas na camada application. 
         // Acredito que as validações feitas aqui deveriam ser as relacionadas ao negócio.
@@ -35,15 +35,15 @@ namespace GeoPet.Domain.Entities;
             DomainExceptionValidation.When(string.IsNullOrEmpty(breed),
                 "Invalid breed. Breed is required");
 
-            DomainExceptionValidation.When(breed.Length < 30,
+            DomainExceptionValidation.When(breed.Length > 80,
                 "Breed must have at least 30 characters");
 
             DomainExceptionValidation.When(string.IsNullOrEmpty(gender),
                 "Invalid breed. Breed is required");
 
-            DomainExceptionValidation.When(weight <= 0 || weight >= 300, "Invalid weight");
+            DomainExceptionValidation.When(weight <= 0 || weight > 300, "Invalid weight");
 
-            DomainExceptionValidation.When(age <= 0 || age >= 20, "Invalid age");
+            DomainExceptionValidation.When(age <= 0 || age > 20, "Invalid age");
 
         }
 

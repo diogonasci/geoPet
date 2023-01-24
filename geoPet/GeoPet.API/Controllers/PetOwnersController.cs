@@ -43,10 +43,11 @@ namespace GeoPet.API.Controllers;
                 return BadRequest(ModelState);
             }
 
-            await _petOwnerService.Add(petOwnerDto);
+           var result = await _petOwnerService.Add(petOwnerDto);
+            
 
             return new CreatedAtRouteResult("GetPetOwner",
-                new { id = petOwnerDto.Id }, petOwnerDto);
+                result);
         }
 
 
@@ -57,10 +58,9 @@ namespace GeoPet.API.Controllers;
             {
                 return BadRequest(ModelState);
             }
-            if (id != petOwnerDto.Id)
-            {
-                return BadRequest();
-            }
+
+            petOwnerDto.Id = id;
+            
             await _petOwnerService.Update(petOwnerDto);
             return Ok(petOwnerDto);
         }

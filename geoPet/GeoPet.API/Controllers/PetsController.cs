@@ -45,23 +45,19 @@ namespace GeoPet.API.Controllers;
                 return BadRequest(ModelState);
             }
 
-            await _petService.Add(petDto);
+           var result = await _petService.Add(petDto);
 
-            return new CreatedAtRouteResult("GetPet",
-                new { id = petDto.Id }, petDto);
+            return new CreatedAtRouteResult("GetPet", result);
         }
 
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] PetDTO petDto)
         {
-            if (id != petDto.Id)
-            {
-                return BadRequest();
-            }
+            petDto.Id = id;
 
             await _petService.Update(petDto);
 
-            return Ok(petDto);
+            return Ok();
         }
 
         [HttpDelete("{id}")]

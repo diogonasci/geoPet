@@ -41,7 +41,7 @@ namespace GeoPet.Infrastructure.Migrations
                     Gender = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     Weight = table.Column<double>(type: "float(10)", precision: 10, scale: 2, nullable: false),
                     Age = table.Column<int>(type: "int", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PetOwnerId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

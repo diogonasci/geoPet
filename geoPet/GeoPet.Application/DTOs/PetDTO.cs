@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace GeoPet.Application.DTOs;
 
@@ -6,8 +7,9 @@ namespace GeoPet.Application.DTOs;
 
 public class PetDTO
 {
+    [JsonIgnore]
     public int Id { get; set; }
-    
+
     [Required(ErrorMessage = "Name is required")]
     [StringLength(100, MinimumLength = 3, ErrorMessage = "Name must have at least 3 characters")]
     public string Name { get; set; }

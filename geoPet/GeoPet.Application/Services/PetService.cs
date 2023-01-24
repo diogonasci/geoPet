@@ -31,10 +31,13 @@ public class PetService : IPetService
         return _mapper.Map<PetDTO>(petEntity);
     }
 
-    public async Task Add(PetDTO petDto)
+    public async Task<PetDTO> Add(PetDTO petDto)
     {
         var petEntity = _mapper.Map<Pet>(petDto);
-        await _petRepository.CreateAsync(petEntity);
+        var entity = await _petRepository.CreateAsync(petEntity);
+
+        return _mapper.Map<PetDTO>(entity);
+
     }
 
     public async Task Update(PetDTO petDto)

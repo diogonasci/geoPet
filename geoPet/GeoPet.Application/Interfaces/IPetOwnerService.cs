@@ -5,7 +5,7 @@ namespace GeoPet.Application.Interfaces;
     {
         Task<IEnumerable<PetOwnerDTO>> GetPetOwners();
         Task<PetOwnerDTO> GetById(int? id);
-        Task Add(PetOwnerDTO petOwnerDto);
+        Task<PetOwnerDTO> Add(PetOwnerDTO petOwnerDto);
         Task Update(PetOwnerDTO petOwnerDto);
         Task Remove(int? id);
     }
